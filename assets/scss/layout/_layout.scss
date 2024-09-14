@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// @_layout.scss
+// ページ共通で入る枠組のクラス
+.pc{
+  display: block !important;
+  @include media_queries(sp){
+    display: none!important;
+  }
+}
+
+.sp {
+  display: block !important;
+  @include media_queries(pc){
+    display: none!important;
+  }
+}

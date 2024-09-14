@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// @_base.scss
+// 基礎タグの設定
+
+/* フォント */
+/* Medium */
+// @font-face {
+//   font-family: 'Cormorant Garamond', serif;
+//   src: url("../font/CormorantGaramond-Medium.ttf") format("ttf");
+//   font-weight: 500;
+// }
+/* Semi Bold */
+// @font-face {
+//   font-family: 'Cormorant Garamond', serif;
+//   src: url("../font/CormorantGaramond-SemiBold.ttf") format("ttf");
+//   font-weight: 600;
+// }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+img {
+  font-size: 0;
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+  @include media_queries(pc) {
+
+  }
+  @include media_queries(sp) {
+
+  }

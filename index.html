@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <header class="header js-fixedHeader is_scroll is_fixed">
+      <div class="header__inner">
+        <div class="header__inner__logo">
+          <a href="/">
+            <img src="./assets/img/sp/img_logo.svg" alt="">
+          </a>
+        </div>
+        <div class="header__inner__pcMenu pc">
+          <ul class="list">
+            <li class="list__item">〇〇農園のみかん</li>
+            <li class="list__item">〇〇農園のジュース</li>
+            <li class="list__item">商品一覧</li>
+            <li class="list__item">お問い合わせ</li>
+          </ul>
+        </div>
+        <div id="black-bg" style="display: none;"></div>
+        <!-- <div class="header__inner__spMenu sp">
+          <div class="btn">
+            <span class="btn__bar"></span>
+            <span class="btn__bar"></span>
+            <span class="btn__bar"></span>
+          </div>
+        </div> -->
+
+        <div class="head-nav-sp">
+          <ul class="head-hamburger-block js-headerMenuBtn">
+            <li class="head-hamburger-list__item m--top"></li>
+            <li class="head-hamburger-list__item m--middle"></li>
+            <li class="head-hamburger-list__item m--bottom"></li>
+          </ul>
+          <div class="draw-box js-headerMenuBlock">
+            <div class="draw-box-inner">
+              <nav class="draw-nav">
+                <ul class="draw-nav-list">
+                  <li class="draw-nav-list__item"><a href="">〇〇農園のみかん</a></li>
+                  <li class="draw-nav-list__item"><a href="">〇〇農園のジュース</a></li>
+                  <li class="draw-nav-list__item"><a href="">商品一覧</a></li>
+                  <li class="draw-nav-list__item"><a href="">お問い合わせ</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="top">
+      <section class="top__mvArea">
+        <!-- <h1 class="top__mvArea__ttl">〇〇農園</h1> -->
+        <!-- <picture>
+          <source srcset="./assets/img/slide1-pc.webp" media="(min-width: 768px)" type="image/webp">
+          <img class="itemImg" src="./assets/img/sp/slide1-sp.webp" alt="" loading="lazy">
+        </picture> -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="./assets/img/slide1-pc.webp" media="(min-width: 768px)" type="image/webp">
+                <img class="itemImg" src="./assets/img/sp/slide1-sp.webp" alt="" loading="lazy">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="./assets/img/slide2-pc.webp" media="(min-width: 768px)" type="image/webp">
+                <img class="itemImg" src="./assets/img/sp/slide2-sp.webp" alt="" loading="lazy">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="./assets/img/slide3-pc.webp" media="(min-width: 768px)" type="image/webp">
+                <img class="itemImg" src="./assets/img/sp/slide3-sp.webp" alt="" loading="lazy">
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="./assets/img/slide4-pc.webp" media="(min-width: 768px)" type="image/webp">
+                <img class="itemImg" src="./assets/img/sp/slide4-sp.webp" alt="" loading="lazy">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="top__mvArea__news">
+          <div class="inner">
+            <p class="inner__ttl">お知らせ</p>
+            <ul class="inner__items">
+              <li class="inner__items__item">
+                <time class="time" datetime="">2024.08.24</time>
+                <p class="text">テキスト1</p>
+              </li>
+              <li class="inner__items__item">
+                <time class="time" datetime="">2024.08.24</time>
+                <p class="text">テキスト2</p>
+              </li>
+              <li class="inner__items__item">
+                <time class="time" datetime="">2024.08.24</time>
+                <p class="text">テキスト3</p>
+              </li>
+            </ul>
+          </div>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section class="top__pickupArea">
+        <h2 class="top__pickupArea__ttl">PICK UP商品</h2>
+        <ul class="top__pickupArea__content">
+          <li class="item">
+            <div class="item__img">
+              <img src="./assets/img/sp/pickup.jpg" alt="">
+            </div>
+            <p class="item__ttl">テスト</p>
+            <p class="item__price">¥1,200（税込）</p>
+          </li>
+          <li class="item">
+            <div class="item__img">
+              <img src="./assets/img/sp/pickup.jpg" alt="">
+            </div>
+            <p class="item__ttl">テスト</p>
+            <p class="item__price">¥1,200（税込）</p>
+          </li>
+          <li class="item">
+            <div class="item__img">
+              <img src="./assets/img/sp/pickup.jpg" alt="">
+            </div>
+            <p class="item__ttl">テスト</p>
+            <p class="item__price">¥1,200（税込）</p>
+          </li>
+        </ul>
+      </section>
+      <section class="top__introduction">
+        <h2 class="top__introduction__ttl">
+      〇〇農園のみかんの紹介
+    </h2>
+        <ul class="top__introduction__tab tab--fruit">
+          <li class="item">
+            <a href="#a" class="item__link">タブ1</a>
+          </li>
+          <li class="item">
+            <a href="#b" class="item__link">タブ2</a>
+          </li>
+          <li class="item">
+            <a href="#c" class="item__link">タブ3</a>
+          </li>
+        </ul>
+        <ul class="top__introduction__items items--fruit">
+          <li id="a" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+          <li id="b" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん2</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+          <li id="c" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん3</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+        </ul>
+        <h2 class="top__introduction__ttl">
+          〇〇農園のジュースの紹介
+        </h2>
+        <ul class="top__introduction__tab tab--juice">
+          <li class="item">
+            <a href="#d" class="item__link">タブ1</a>
+          </li>
+          <li class="item">
+            <a href="#e" class="item__link">タブ2</a>
+          </li>
+          <li class="item">
+            <a href="#f" class="item__link">タブ3</a>
+          </li>
+        </ul>
+        <ul class="top__introduction__items items--juice">
+          <li id="d" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+          <li id="e" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん2</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+          <li id="f" class="item js-area">
+            <img class="item__img" src="./assets/img/sp/akihime_photo.jpg" alt="">
+            <h3 class="item__ttl">みかん3</h3>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">甘さ</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">酸味</dt>
+              <dd class="item__detail__taste">●●●●○</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">収穫時期</dt>
+              <dd class="item__detail__text">11月上旬〜中旬</dd>
+            </dl>
+            <dl class="item__detail">
+              <dt class="item__detail__ttl">特徴</dt>
+              <dd class="item__detail__text">テスト</dd>
+            </dl>
+          </li>
+        </ul>
+      </section>
+      <section class="top__about">
+        <h2 class="top__about__ttl">
+      〇〇農園について
+    </h2>
+        <p class="top__about__text">
+    テストテスト
+    </p>
+      </section>
+      <section class="top__contact">
+        <div class="top__contact__container">
+          <h2 class="ttl">お問い合わせ</h2>
+          <div class="box">
+            <a class="box__form">
+              お問い合わせフォーム
+            </a>
+            <a href="tel:000-0000-000" class="box__tel">
+              <p class="box__tel__num">
+                000-0000-000
+              </p>
+              <span class="box__tel__text">9：00 ～16：00（定休日：土日祝）</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="footer__logo" src="/assets/img/sp/img_logo.svg" alt="">
+      <p class="footer__copyrigyts">© 〇〇FARM. All rights reserved.</p>
+    </footer>
+    <script src="./assets/js/jquery-3.3.1.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/btn.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+  </body>
+</html>
